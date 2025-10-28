@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+
+    <style>
+        @font-face 
+        {
+            font-family: DM_Sans;
+            src: url(DMSans.ttf);
+        }
+
+        body
+        {
+            font-family: DM_Sans;
+        }
+
+        ul
+        {
+            list-style: none;
+            padding-left: 0px;
+        }
+        
+        li
+        {
+            font-size: 14pt;
+            background-position: 5% 50%;
+            padding: 15px 15px 15px 30px;
+        }
+
+        .dark
+        {
+            background-color: rgb(155, 204, 219);
+            background-image: url(unchecked_16.png);
+            background-repeat: no-repeat;
+        }
+
+        .light
+        {
+            background-color: rgb(173, 219, 233);
+            background-image: url(unchecked_16.png);
+            background-repeat: no-repeat;
+        }
+
+        .gray
+        {
+            background-color: rgb(221, 221, 221);
+            background-image: url(checked_16.png);
+            background-repeat: no-repeat;
+        }
+
+        span
+        {
+            margin-left: 60px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h2>My To Do List</h2>
+
+    <div>
+        <ul>
+            <li class="dark"><span>Hit the gym</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="gray"><span><s>Pay bills</s></span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="dark"><span>Meet John</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="light"><span>Buy eggs</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="gray"><s><span>Read a book</span></s>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="light"><span>Organize office</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="dark"><span>Eat dinner</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="light"><span>Buy apples</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="dark"><span>Meet George</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="light"><span>Feed the cat</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="gray"><s><span>Write a letter</span></s>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+            <li class="light"><span>Run 1 km</span>
+                <span style="color: rgb(197, 0, 0);">&#10006;</span></li>
+        </ul>
+    </div>
+
+</body>
+</html>
